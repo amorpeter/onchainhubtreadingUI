@@ -23,7 +23,7 @@ const Signup = () => {
     initialValues: {
       email: "",
       username: "",
-      fullName: "",
+      fullName: "OnchainUser12",
       password: "",
       confirm_password: "",
     },
@@ -120,7 +120,7 @@ const Signup = () => {
             </div>
 
             <form onSubmit={handleFormSubmit} className="space-y-2">
-              {/* Full Name */}
+              {/* 
               <input
                 {...formik.getFieldProps("fullName")}
                 type="text"
@@ -129,6 +129,9 @@ const Signup = () => {
                 className="py-3 px-4 border-transparent block w-full rounded-lg text-sm bg-gray-700 text-white outline-none"
                 required
               />
+              
+              */}
+              
 
               {/* Username */}
               <input
