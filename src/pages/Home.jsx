@@ -141,7 +141,7 @@ useEffect(() => {
             alt="XCrypto"
             className="w-9 h-9 rounded-2xl"
           />
-          <h1 className="text-yellow-400 text-2xl font-bold">onchainhubtreadingto</h1>
+          <h1 className="text-yellow-400 text-2xl font-bold">OnchainHubTreading</h1>
         </div>
         <nav className="hidden md:flex gap-6 items-center">
           <button onClick={() => navigate("/signin")} className="hover:text-yellow-300">
